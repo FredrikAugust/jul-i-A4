@@ -1,28 +1,39 @@
 no: det er jul
 en: it's xmas
+es: es navidad
 
 no: aoc er advent of code 
 en: aoc is advent of code
+es: aoc es adviento de código
 no: knowit er et selskap
 en: knowit is a company
+es: knowit es una empresa
 
 no: kode skrives i haskell fordi det er kult og spennende
 en: code writes in haskell because it is cool and exciting
+es: código escribir en haskell porque es frio y emocionante
 
 no: har du noen spm lag et issue (eller to, det er jul)
 en: have you any qstn make an issue (or two, it is xmas)
+es: tienes tu unas prgnts hacer una problema (o dos, son navidades)
 
 no: vil du endre på koden? lag en pr så merger jeg uten å sjekke om d funker
 en: will you edit on the code? make a pr then merge I without to check if t works
+es: quieres editar en el código? hacer un pr entonces merge yo sin verificar si funciona
 
 no: er alltid med på golfekonkurranse, så post gjerne code golfs av oppgaver
 en: is always with on golf competition, so post please code golfs by exercises
+es: es siempre con en golf competencia, así que post por favor golfs códigos de ejercicios
 
 no: linker
 en: links
+es: enlaces
 no: pst    : npst.no
 en: pst    : npst.no
+es: pst    : npst.no
 no: aoc    : adventofcode.com
 en: aoc    : adventofcode.com
+es: aoc    : adventofcode.com
 no: knowit : julekalender.knowit.no
 en: knowit : julekalender.knowit.no
+es: knowit : julekalender.knowit.no
