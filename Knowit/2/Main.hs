@@ -5,12 +5,12 @@ import Math.NumberTheory.Primes (precPrime, unPrime)
 main :: IO ()
 main = do
   -- Take packages from the infinite stream until we satisfy Norway's lust for julegaver.
-  print . length . takeWhile (<= 5433000) . iterate (iterF) $ 0
+  print . length . takeWhile (<= 5433000) . iterate iterF $ 0
 
 -- |
 -- Does the number contain the digit 7?
 containsSeven :: Integer -> Bool
-containsSeven = any (== '7') . show
+containsSeven = elem '7' . show
 
 -- |
 -- The function used to create the infinite list of package deliveries.

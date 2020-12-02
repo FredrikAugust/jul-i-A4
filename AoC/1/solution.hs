@@ -32,7 +32,7 @@ main = do
   -- Try to find two numbers which sum to 2020 - the current input (reusing old code as we professional code mongers say)
   -- If we find 'em, print the product of 'em. C'est everything
   mapM_
-    ( \x -> case (solve (2020 - x) $ (input \\ [x])) of
+    ( \x -> case solve (2020 - x) (input \\ [x]) of
         Just (a, b) -> print (x * a * b) >> exitFailure -- Let's just crash when we're done. No reason to stick around.
         Nothing -> return ()
     )

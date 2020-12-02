@@ -1,13 +1,12 @@
--- Second challenge
 module Main where
 
 import Util (count)
 
 main :: IO ()
 main = do
-  content <- readFile $ "./AoC/2/input.txt"
+  content <- readFile "./AoC/2/input.txt"
   let ls = lines content
-  let ws = map (words) ls
+  let ws = map words ls
   -- We have three values; the two positions, the character, and the password
   let inputs = map (\(r : c : p : _) -> (positions r, head . takeWhile (/= ':') $ c, p)) ws
   -- Map the positions to the underlying characters
