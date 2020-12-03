@@ -1,0 +1,4 @@
+("marsipangris",False)
+("pinnekj\248tt",False)
+("askepott",False)
+askepott, marsipangris, pinnekjøtt
